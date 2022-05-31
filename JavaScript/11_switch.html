@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML switch</title>
+</head>
+<body>
+    <p id="message"></p>
+    <script>
+        let day=new Date();
+        switch (day.getDay()) {
+            case 0:'sunday';
+                
+                break;
+
+                case 1:'monday';
+                
+                break;
+                case 2:'Tuesday';
+                
+                break;
+                case 3:'wednesday';
+                
+                break;
+                case 4:'thursday';
+                
+                break;
+                case 5:'friday';
+                
+                break;
+                case 6:'saturday';
+                
+                break;
+        
+          
+        }
+        document.getElementById("message").innerHTML="Today is "+ day;
+    </script>
+</body>
+</html>

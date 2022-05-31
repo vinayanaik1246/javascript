@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varibale let</title>
+</head>
+<body>
+    <p id="message"></p>
+    <script>
+        // var x=10;
+        // {
+        //     var x=20;
+        //     alert('value of var x inside block'+ x);//popup box
+        // }
+        // document.getElementById("message").innerHTML="value of var x is"+x;//calling statement
+
+        let x=10;
+        //alert("value of let x outside the block"+x);
+        console.log("value of x outside "+x);
+        {
+            let x=20;
+            console.log("value of x inside "+x);
+
+          //  var x=40;
+            //alert("value of let x outside the block"+x);
+        }
+       // alert("value of let x outside the block"+x);
+       console.log("value of x outside "+x);
+
+        document.getElementById("message").innerHTML="value of var x is"+x;
+    </script>
+</body>
+</html>
